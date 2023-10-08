@@ -1,0 +1,141 @@
+/* 
+Fond : #DEFCF9
+Texte : #181823
+Titre : #362FD9
+Ss titre : #3C84AB
+*/
+
+
+body{
+	color:#181823;
+	background-color:#FFFFFF;
+	padding-bottom:70px;
+}
+
+
+
+.liens:hover{
+	transition: 0.5s;
+	font-size: 70%;
+	font-color:#FFFFFF;
+}
+
+.liens{
+	text-align:center;
+	transition: 0.5s;
+	color:#FFFFFF;
+	font-size: 50%;
+}
+
+
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+	display:inline;
+	padding:10px;
+	font-size:100px;
+}
+
+.list-inline li{
+	display:inline;
+}
+
+h1{
+	font-family: 'Kanit', sans-serif;
+	color:#3C84AB;
+	text-align:center;
+	font-size:250%;
+}
+
+footer{
+	position: fixed;
+	bottom: -0;
+	transform:translateY(50px);
+	width: 100%;
+	height: 90px;
+	background: #3C84AB;
+	text-align:center;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	padding-bottom:15px;
+	padding-top:none;
+	transition:transform 0.5s;
+}
+
+footer:hover{
+	height:90px;
+	transform: 0.5s;
+	transform:translateY(-2px);
+	margin-bottom:none;
+}
+
+#img-axel{
+	border-radius: 50%;
+	zoom:40%;
+	width:500px;
+	display:block;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:130px;
+}
+
+h2{
+	font-family: 'Kanit', sans-serif;
+	color:#3C84AB;
+	text-align:center;
+}
+
+.box{
+	padding:50px;
+	margin:50px;
+	width:650px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	margin-left:auto;
+	margin-right:auto;
+	transition-duration: 0.5s;
+	zoom:100%;
+}
+
+.box:hover{
+	transform: scale(1.05);
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+}
+
+strong{
+	font-weight:bold;
+	color:#3C84AB;
+	font-family: 'Kanit', sans-serif;
+}
+
+@media (max-width: 960px) {
+  .responsive {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .responsive {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .responsive {
+    width: 300px;
+  }
+}
+
+.video-games{
+	margin-bottom:200px;
+}
+
+#footer-txt{
+	font-family: 'Kanit', sans-serif;
+	color:#FFFFFF;
+	padding-down:0px;
+	font-size:150%;
+	padding-top:0px;
+}
